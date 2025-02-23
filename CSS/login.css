@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header part start */
+.header {
+    background: #003566;
+}
+
+.header .logo {
+    width: 24%;
+}
+
+.header .nav-link {
+    color: #FFD60A;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.header .form-control {
+    border: 1px solid #FFD60A;
+    background-color: transparent;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.header .form-control::placeholder {
+    color: #FFD60A;
+}
+
+.header .dropdown-item {
+    text-transform: uppercase;
+    color: #ddbb0f;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* header part end */
+
+.log-in {
+    background-image: url(../images/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.log-in .form-page {
+    background-color: #001d3d9e;
+    margin-top: 15% !important;
+    border-radius: 8px;
+    margin-right: 90px !important;
+}
+
+.log-in .form-page h1 {
+
+    color: #001D3D;
+
+    margin: 25px auto 10px;
+
+    font-size: 36px;
+
+    font-weight: 800;
+
+    text-shadow: 2px 2px #ffc107;
+}
+
+.log-in .form-page form {
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+    margin-bottom: 20px;
+}
+
+.log-in .form-page form input {
+
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+.log-in .form-page input::placeholder {}
+
+.log-in .form-page input[type=submit] {
+
+    margin-bottom: 35px;
+
+    margin-top: 7px;
+
+    padding: 6px 32px;
+
+    color: #ffc107;
+
+    border: 3px solid #001D3D;
+
+    background: #001D3D;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+
+    transition: .4s all ease-in-out;
+
+    font-size: 20px;
+}
+
+.log-in .form-page input[type=submit]:hover {
+    background: transparent;
+    border: 3px solid #001D3D;
+    color: #ffc107;
+}
